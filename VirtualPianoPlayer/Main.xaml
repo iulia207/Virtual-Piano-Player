@@ -1,0 +1,192 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="824,1696.8" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers.Scope</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.CV</x:String>
+      <x:String>UiPath.Shared.ObjectLibrary</x:String>
+      <x:String>UiPath.CV.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Play Virtual Piano" sap:VirtualizedContainerService.HintSize="665.6,1632" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="s:String[]" Name="output" />
+      <Variable x:TypeArguments="x:String" Name="input" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:ReadTextFile File="{x:Null}" Content="[input]" DisplayName="Read Text File" FileName="Twinkle.txt" sap:VirtualizedContainerService.HintSize="603.2,80.8" sap2010:WorkflowViewState.IdRef="ReadTextFile_2" />
+    <Assign DisplayName="Assign notes to output" sap:VirtualizedContainerService.HintSize="603.2,81.6" sap2010:WorkflowViewState.IdRef="Assign_1">
+      <Assign.To>
+        <OutArgument x:TypeArguments="s:String[]">[output]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="s:String[]">[Split(input.Replace(Environment.NewLine," = ").Trim()," ")]</InArgument>
+      </Assign.Value>
+    </Assign>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Virtual Piano - Play The Best Online Piano Keyboard" sap:VirtualizedContainerService.HintSize="603.2,1277.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="bb182167-e339-441f-9f77-11c933410c1b" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="569.6,1060.8" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:MaximizeWindow Window="{x:Null}" DisplayName="Maximize Window" sap:VirtualizedContainerService.HintSize="507.2,24.8" sap2010:WorkflowViewState.IdRef="MaximizeWindow_1" />
+            <uix:NNavigateBrowser Action="Refresh" DisplayName="Refresh the page before singing" sap:VirtualizedContainerService.HintSize="507.2,82.4" sap2010:WorkflowViewState.IdRef="NNavigateBrowser_1" Version="V3" />
+            <ui:ForEach x:TypeArguments="x:Object" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="507.2,758.4" sap2010:WorkflowViewState.IdRef="ForEach`1_3" Values="[output]">
+              <ui:ForEach.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="item" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="473.6,586.4" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="x:String" Name="keyBoard" />
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:MultipleAssign DisplayName="Assign each note" sap:VirtualizedContainerService.HintSize="430.4,101.6" sap2010:WorkflowViewState.IdRef="MultipleAssign_2">
+                      <ui:MultipleAssign.AssignOperations>
+                        <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+                          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_2">
+                            <ui:AssignOperation.To>
+                              <OutArgument x:TypeArguments="x:String">[keyBoard]</OutArgument>
+                            </ui:AssignOperation.To>
+                            <ui:AssignOperation.Value>
+                              <InArgument x:TypeArguments="x:String">[item.ToString]</InArgument>
+                            </ui:AssignOperation.Value>
+                          </ui:AssignOperation>
+                        </scg:List>
+                      </ui:MultipleAssign.AssignOperations>
+                    </ui:MultipleAssign>
+                    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="430.4,90.4" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="[keyBoard]" />
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into" EmptyFieldMode="None" sap:VirtualizedContainerService.HintSize="430.4,224.8" sap2010:WorkflowViewState.IdRef="NTypeInto_1" Text="[keyBoard]" Version="V3" />
+                  </Sequence>
+                </ActivityAction>
+              </ui:ForEach.Body>
+              <ui:ForEach.CurrentIndex>
+                <OutArgument x:TypeArguments="x:Int32" />
+              </ui:ForEach.CurrentIndex>
+            </ui:ForEach>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="483a9a304fe94cd617034685728b483c.jpg" Selector="&lt;html app='chrome.exe' title='Virtual Piano - Play The Best Online Piano Keyboard' /&gt;" Url="https://virtualpiano.net/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
